@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rallsop\\pluralsight\\c_fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "C:\\Users\\rallsop\\Documents\\GitHub\\PluralSight_C_Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "C:\\Users\\rallsop\\pluralsight\\c_fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectPath": "C:\\Users\\rallsop\\Documents\\GitHub\\PluralSight_C_Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "packagesPath": "C:\\Users\\rallsop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rallsop\\pluralsight\\c_fundamentals\\gradebook\\src\\GradeBook\\obj\\",
+      "outputPath": "C:\\Users\\rallsop\\Documents\\GitHub\\PluralSight_C_Fundamentals\\gradebook\\src\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

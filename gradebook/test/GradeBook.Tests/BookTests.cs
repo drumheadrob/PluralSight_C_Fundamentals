@@ -28,7 +28,14 @@ namespace GradeBook.Tests
         public void AddGradeValidationUpperLimit()
         {   
             var book = new Book("");
-            book.AddGrade(105);
+
+            try
+            {
+                book.AddGrade(105);
+            }
+            catch
+            {
+            }
             Assert.Equal(0, book.Grades.Count);
         }
     }

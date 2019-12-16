@@ -9,3 +9,14 @@ C:\Users\rallsop\pluralsight\c_fundamentals\gradebook\src\GradeBook\obj\Debug\ne
 C:\Users\rallsop\pluralsight\c_fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
 C:\Users\rallsop\pluralsight\c_fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
 C:\Users\rallsop\pluralsight\c_fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\rallsop\Documents\GitHub\PluralSight_C_Fundamentals\gradebook\src\GradeBook\obj\Debug\netcoreapp3.1\GradeBook.pdb
