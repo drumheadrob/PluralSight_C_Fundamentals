@@ -20,9 +20,51 @@ namespace GradeBook
         }
     }
 
-    public class Book : NamedObject
+    public interface IBook
+    {
+        void AddGrade(double grade);
+        Statistics GetStatistics();
+        string Name { get; }
+        event GradeAddedDelegate GradeAdded;
+    }
+
+    public abstract class Book : NamedObject, IBook
     {
         public Book(string name) : base(name)
+        {
+        }
+
+        public abstract event GradeAddedDelegate GradeAdded;
+
+        public abstract void AddGrade(double grade);
+
+        public abstract Statistics GetStatistics();
+    }
+
+    public class DiskBook : Book
+    {
+        public DiskBook(string name) : base(name)
+        {
+        }
+
+        public override event GradeAddedDelegate GradeAdded;
+
+        public override void AddGrade(double grade)
+        {
+            // Every time invoked
+            // Open a file that has same name as book
+            // write a new line to file that contains grade value
+        }
+
+        public override Statistics GetStatistics()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class InMemoryBook : Book
+    {
+        public InMemoryBook(string name) : base(name)
         {
             Grades = new List<double>();
             Name = name;
@@ -51,7 +93,7 @@ namespace GradeBook
         }
 
 
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             if(grade <= 100 && grade >= 0)
             {
@@ -68,9 +110,9 @@ namespace GradeBook
             }
         }
 
-        public event GradeAddedDelegate GradeAdded;
+        public override event GradeAddedDelegate GradeAdded;
 
-        public Statistics GetStatistics()
+        public override Statistics GetStatistics()
         {
             var result = new Statistics();
             result.Average = 0.0;
