@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace GradeBook
 {
@@ -45,6 +46,7 @@ namespace GradeBook
     {
         public DiskBook(string name) : base(name)
         {
+            Name = name;
         }
 
         public override event GradeAddedDelegate GradeAdded;
@@ -53,7 +55,11 @@ namespace GradeBook
         {
             // Every time invoked
             // Open a file that has same name as book
-            // write a new line to file that contains grade value
+            // write a new line to file that contains grade value 
+            using (StreamWriter w = File.AppendText($"{Name}.txt"))
+            {
+                w.WriteLine(grade.ToString());
+            }
         }
 
         public override Statistics GetStatistics()
